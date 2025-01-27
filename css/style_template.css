@@ -1,0 +1,258 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+
+/* Nav Styles */
+nav {
+    background-color:#BCCCDC;
+    display: flex;
+    justify-content: space-between;
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+}
+
+nav p, nav a {
+    font-size: 20px;
+    margin: 0;
+    display: block;
+    text-align: center;
+    inline-size:auto;
+    block-size:auto;
+    color: #0d0f11;
+}
+
+nav a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9AA6B2;
+    color: #0d0f11;
+}
+
+.head a:hover {
+    background-color: #BCCCDC;
+    color: #0d0f11;
+}
+/* Footer Styles */
+footer {
+    background-color: #BCCCDC;
+    display: flex;
+    justify-content: center;
+    border-block-start-style: solid;
+    border-block-start-width: 1px;
+}
+
+footer a {
+    display: block;
+    color:#0d0f11;
+
+}
+
+footer a:hover {
+    background-color: #9AA6B2;
+    color: #0d0f11;
+}
+
+/* Splash Section */
+.splash {
+    font-family: 'Roboto';
+    font-size: 16px;
+
+}
+
+.splash h1 {
+    font-family: 'Faculty+Glyph';
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight:800;
+    text-align: center;
+    color: #9AA6B2;
+}
+        
+.splash img {
+    border: #D9EAFD;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D9EAFD;
+    border-radius: 20px;
+    display:block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.splash p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.address {
+    color: #9AA6B2;
+}
+
+/* Horizontal Rules */
+hr {
+    border-style:solid;
+    border-width: 2px;
+    border-color:#0d0f11;   
+}
+
+/* Sections */
+section {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+/* Section Headings */
+section h2 {
+    margin-inline-start:10px;
+    font-size: 30px;
+    color:#9AA6B2;
+}
+
+/* Paragraph Styles */
+section p {
+    margin-inline-start:25px;
+    color:#0d0f11;
+    font-size: 15px;
+}
+
+/* link styles */
+section a {
+    color:#0d0f11;
+    text-decoration:none;
+    font-style: italic;
+}
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style:square;
+}
+
+dl {
+    display: grid;
+    margin-inline-start:25px;
+}
+dl dt{
+    font-size:15px;
+}
+dl dd{
+    color:#9AA6B2;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5px;
+    gap: 10px;
+}
+
+.card {
+    padding-block: 10px;
+    padding-inline: 5px;
+    border:#9AA6B2;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 7px;
+    background-color: #D9EAFD;
+    box-shadow: #6b7075;
+}
+    
+.card img {
+    border: #D9EAFD;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #9AA6B2;
+    border-radius: 20px;
+    display:block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    padding-inline-start: 30%;
+    padding-inline-end: 30%;
+    padding-block: 15px;
+    align-items: center;
+}
+
+form {
+    background-color: #F8FAFC;
+}
+
+form input, form textarea {
+    background-color: #ebedef;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #c3d1df;
+}
+
+form input:hover, form textarea:hover {
+    background-color: #c9d6e3;
+}
+
+form button {
+    background-color: #c9d6e3;
+}
+
+form button:hover {
+    background-color: #c9d6e3;
+}
+
+.contactsplash {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.contactsplash h1 {
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight:800;
+    text-align: center;
+    color: #0d0f11;
+}
+
+.contactsplash p {
+    color: #9AA6B2;
+    font-size: 18px;
+    text-align: center;
+}
+
+.thankyousplash {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.thankyousplash h1 {
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight:800;
+    text-align: center;
+    color: #0d0f11;
+}
+
+.thankyousplash p {
+    color: #0d0f11;
+    font-size: 16px;
+    text-align: center;
+}
