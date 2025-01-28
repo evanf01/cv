@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/style_template.css">
     </head>
     <body>
+        <div id="page-container">
+        <div id="content-wrap">
         <nav>
             <p class = "head"><a>Evan Falke</a></p>
             <p><a href="./index.html">About Evan</a></p>
@@ -19,18 +21,20 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+            <input type="hidden" name="_next" value="http://evanfalke.com/cv/thankyou.html">
             <label for="email">Email:</label>
             <input type="text" id="email" name="email">
             <label for="message">Message:</label>
             <textarea rows="6" id="message" name="message"></textarea>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit">    
         </form>
-        <footer>
+        </div>
+        <footer id="footer">
             &#169;
             <a href="./index.html">Evan Falke</a>
             <a href="https://www.linkedin.com/in/evanfalke1/"><i class="fab fa-linkedin"></i></a> 
         </footer>
+    </div>
     </body>
 </html>

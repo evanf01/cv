@@ -5,12 +5,12 @@
 body {
     margin: 0;
     font-family: 'Roboto';
+    background-color: #FEFAE0;
 }
-
 
 /* Nav Styles */
 nav {
-    background-color:#BCCCDC;
+    background-color:#798645;
     display: flex;
     justify-content: space-between;
     border-block-end-style: solid;
@@ -24,7 +24,7 @@ nav p, nav a {
     text-align: center;
     inline-size:auto;
     block-size:auto;
-    color: #0d0f11;
+    color: #F2EED7;
 }
 
 nav a {
@@ -33,18 +33,19 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #9AA6B2;
-    color: #0d0f11;
+    background-color: #626F47;
+    color: #F2EED7;
 }
 
 .head a:hover {
-    background-color: #BCCCDC;
-    color: #0d0f11;
+    background-color: #626F47;
+    color: #F2EED7;
 }
 /* Footer Styles */
 footer {
-    background-color: #BCCCDC;
+    background-color: #798645;
     display: flex;
+    color:#F2EED7;
     justify-content: center;
     border-block-start-style: solid;
     border-block-start-width: 1px;
@@ -52,13 +53,29 @@ footer {
 
 footer a {
     display: block;
-    color:#0d0f11;
+    color:#F2EED7;
 
 }
 
 footer a:hover {
-    background-color: #9AA6B2;
-    color: #0d0f11;
+    background-color: #626F47;
+    color: #F2EED7;
+}
+
+/* Footer properties */
+#page-container {
+    position: relative;
+    min-block-size: 100vh;
+}
+
+#content-wrap {
+    padding-block-end: 1.5rem;
+}
+#footer {
+    position:absolute;
+    inset-block-end: 0;
+    inline-size: 100%;
+    block-size: 1.5rem;
 }
 
 /* Splash Section */
@@ -74,14 +91,13 @@ footer a:hover {
     font-variant: small-caps;
     font-weight:800;
     text-align: center;
-    color: #9AA6B2;
+    color: #0d0f11;
 }
         
 .splash img {
-    border: #D9EAFD;
     border-style: solid;
     border-width: 5px;
-    border-color: #D9EAFD;
+    border-color: #626F47;
     border-radius: 20px;
     display:block;
     margin-inline-start: auto;
@@ -94,14 +110,14 @@ footer a:hover {
 }
 
 .address {
-    color: #9AA6B2;
+    color: #626F47;
 }
 
 /* Horizontal Rules */
 hr {
     border-style:solid;
     border-width: 2px;
-    border-color:#0d0f11;   
+    border-color:#626F47;   
 }
 
 /* Sections */
@@ -114,7 +130,7 @@ section {
 section h2 {
     margin-inline-start:10px;
     font-size: 30px;
-    color:#9AA6B2;
+    color:#626F47;
 }
 
 /* Paragraph Styles */
@@ -147,7 +163,7 @@ dl dt{
     font-size:15px;
 }
 dl dd{
-    color:#9AA6B2;
+    color:#798645;
 }
 
 /* Project Section */
@@ -161,19 +177,18 @@ dl dd{
 .card {
     padding-block: 10px;
     padding-inline: 5px;
-    border:#9AA6B2;
+    border:#626F47;
     border-style: solid;
     border-width: 5px;
     border-radius: 7px;
-    background-color: #D9EAFD;
+    background-color: #F2EED7;
     box-shadow: #6b7075;
 }
     
 .card img {
-    border: #D9EAFD;
     border-style: solid;
     border-width: 5px;
-    border-color: #9AA6B2;
+    border-color: #626F47;
     border-radius: 20px;
     display:block;
     margin-inline-start: auto;
@@ -189,34 +204,38 @@ dl dd{
 /* Contact Page Styles */
 .one-col {
     display: grid;
-    padding-inline-start: 30%;
-    padding-inline-end: 30%;
-    padding-block: 15px;
+    margin-inline-start: 30%;
+    margin-inline-end: 30%; 
+    margin-block: 15px;
     align-items: center;
 }
 
 form {
-    background-color: #F8FAFC;
+    background-color: #F2EED7;
+    border-style: solid;
+    border-color: #626F47;
+    padding-inline: 15px;
+    padding-block: 10px;
 }
 
 form input, form textarea {
-    background-color: #ebedef;
+    background-color: #FEFAE0;
 }
 
 form input:focus, form textarea:focus {
-    background-color: #c3d1df;
+    background-color: #FEFAE0;
 }
 
 form input:hover, form textarea:hover {
-    background-color: #c9d6e3;
+    background-color: #F2EED7;
 }
 
 form button {
-    background-color: #c9d6e3;
+    background-color: #F2EED7;
 }
 
 form button:hover {
-    background-color: #c9d6e3;
+    background-color: #F2EED7;
 }
 
 .contactsplash {
@@ -233,7 +252,7 @@ form button:hover {
 }
 
 .contactsplash p {
-    color: #9AA6B2;
+    color: #626F47;
     font-size: 18px;
     text-align: center;
 }
@@ -255,4 +274,13 @@ form button:hover {
     color: #0d0f11;
     font-size: 16px;
     text-align: center;
+}
+
+.thankyousplash a {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.thankyousplash a:hover {
+    color: #6b7075;
 }
